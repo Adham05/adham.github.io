@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borang Pendaftaran</title>
+</head>
+<body>
+    <h2>Borang Pendaftaran</h2>
+
+    <form action="proses.php" method="post">
+
+        <p>
+         <label for="nama">Nama Peserta</label>
+         <input type="text" name="nama " id="nama">
+        </p>
+         
+        <p>
+         <label for="email">Email</label>
+         <input type="text" name="email" id="email">
+        </p>
+        <label for="mobile_no">Nombor Telefon</label> 
+        <input type="text" name="mobile_no" id="mobile_no">
+        <p>
+        
+        </p> 
+
+        <p>
+           <label for="status">Pekerjaan</label>
+           <select name="status" id="status">
+               <option value="bekerja">Bekerja</option>
+               <option value="belajar">Belajar</option>
+               <option value="tiada pekerjaan">Tiada pekerjaan</option>
+               </select>
+        </p>
+
+        <p>
+            <label for="">Jantina</label>
+            <label for="Lelaki" >
+                <input type="radio" name="jantina" id="Lelaki" value="Lelaki"> Lelaki
+            </label>
+
+            <label for="Perempuan">
+                <input type="radio" name="jantina" id="Perempuan" value="Perempuan"> Perempuan
+            </label>
+        </p>
+
+        <p>
+            <label for="">Pengalaman</label>
+            <label for="html" >
+                <input type="checkbox" name="pengalaman" id="html" value="html"> HTML
+            </label>
+            
+            <label for="css" >
+                <input type="checkbox" name="pengalaman" id="css" value="css"> CSS
+            </label>
+
+            <label for="php" >
+                <input type="checkbox" name="pengalaman" id="php" value="php"> PHP
+            </label>
+        </p>
+            <button type="submit" >DAFTAR</button>
+            <button type="reset" >RESET</button>
+         
+        <p>
+
+
+        </p>
+    </form>
+</body>
+</html>
